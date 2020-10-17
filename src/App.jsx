@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import { GoogleButton } from './components/GoogleButton';
+import { MapComponent } from './components/Map/Map';
 
 import './App.scss';
 import { useSelector, useDispatch } from 'react-redux';
@@ -30,6 +31,7 @@ const App = () => {
           <About />
         </Route>
       </Switch>
+      <MapComponent />;
     </>
   );
 };
