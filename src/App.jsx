@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
+import { GoogleButton } from './components/GoogleButton';
 
 import './App.scss';
 import { useSelector, useDispatch } from 'react-redux';
@@ -20,7 +21,7 @@ const App = () => {
     <>
       <div>{counter}</div>
       <button onClick={increment}>Increment</button>
-      
+      <GoogleButton />;
       <Switch>
         <Route exact path="/">
           <Home />
