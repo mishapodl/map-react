@@ -9,7 +9,7 @@ export const Authorization = ({ toggle }) => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (localStorage.getItem('login') === "true") {
+    if (JSON.parse(localStorage.getItem('login'))) {
       dispatch(auth.logInSuccess(true));
     }
   }, []);
