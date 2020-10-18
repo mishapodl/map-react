@@ -1,0 +1,120 @@
+.auth-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  .regisetr-modal {
+    .bg-overlay {
+      position: absolute;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+      background: #0000007d;
+      top: 0;
+      z-index: 1;
+    }
+    .modal-form {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      position: absolute;
+      width: 400px;
+      top: 25%;
+      left: 50%;
+      -webkit-transform: translate(-50%);
+              transform: translate(-50%);
+      padding: 2rem 2.5rem;
+      border: 1px solid #fff;
+      background-color: #090a0cd9;
+      z-index: 1;
+      form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+                align-items: stretch;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        label {
+          color: #fff;
+          margin: 0.8rem 0 0.4rem;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          &:nth-child(1) {
+            margin-top: 0;
+          }
+        }
+        input {
+          padding: 0.3rem;
+          &::-webkit-input-placeholder {
+            text-transform: uppercase;
+          }
+          &:-ms-input-placeholder {
+            text-transform: uppercase;
+          }
+          &::-ms-input-placeholder {
+            text-transform: uppercase;
+          }
+          &::placeholder {
+            text-transform: uppercase;
+          }
+        }
+        .form-btns {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+          button {
+            text-align: center;
+            padding: 0.5rem 2rem;
+            margin: 1.5rem 0 0;
+            border: 1px solid #fff;
+            width: unset;
+            cursor: pointer;
+          }
+        }
+      }
+      p {
+        border: 1px solid rgb(226, 68, 68);
+        color: rgb(226, 68, 68);
+        text-transform: uppercase;
+        padding: 0.5rem;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+        word-spacing: 0.1em;
+        margin: 0 0 1em;
+      }
+    }
+  }
+  
+  button {
+    background-color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    border: 1px solid;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    &:hover {
+      color: #000;
+      background-color: rgb(255, 255, 255);
+    }
+  }
+}

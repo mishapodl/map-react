@@ -3,7 +3,8 @@ import { AUTHORIZATION as AUTH } from '../constants';
 const initialState = {
   username: null,
   error: '',
-  success: ''
+  success: '',
+  isLogIn: false
 };
 
 export const authReducer = (state = initialState, action) => {
@@ -12,12 +13,14 @@ export const authReducer = (state = initialState, action) => {
       return {
         ...state,
         user: action.payload.name,
+        isLogIn: true,
         error: ''
       };
     case AUTH.LOGOUT:
       return {
         ...state,
         user: null,
+        isLogIn: false,
         error: ''
       };
     case AUTH.LOGIN_SUCCESS:

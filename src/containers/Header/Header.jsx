@@ -3,6 +3,7 @@ import { Navigation } from '../../components/Navigation/Navigation';
 import { BarContacts } from '../../components/BarContacts/BarContacts';
 import { routesHeader } from '../../routes';
 import { Logo } from './../../components/Logo/Logo';
+import { Authorization } from './../../components/Authorization/Authorization';
 import './Header.scss';
 
 export const Header = () => {
@@ -21,15 +22,7 @@ export const Header = () => {
             mobile={mobile} 
           />
           <div className="auth-panel">
-            {/* {!isAuthenticated ? (
-              <>
-                <RegisterModal />
-                <Login />
-              </>
-            ) : (
-              <Logout />
-            )} */}
-            Hello
+            <Authorization />
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Form.scss';
 
-export const Form = ({ updateForm, error }) => {
+export const Form = ({ updateForm, msg, toggle }) => {
   const initInputState = {
     name: '',
     password: ''
@@ -21,25 +21,33 @@ export const Form = ({ updateForm, error }) => {
   };
 
   return (
-    <div>
-      {error && <p>{error}</p>}
-      <form action="POST" onSubmit={onSubmit}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Name"
-          value={name}
-          onChange={onChange}
-        />
-        <input
-          type="password"
-          name="password"
-          placeholder="Password"
-          value={password}
-          onChange={onChange}
-        />
-        <button type="submit">Login</button>
-      </form>
+    <div className="regisetr-modal">
+      <div className="bg-overlay" />
+      <div className="modal-form">
+        {msg ? <p>{msg}</p> : null}
+        <form action="POST" onSubmit={onSubmit}>
+          <label htmlFor="name">Name *</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            value={name}
+            onChange={onChange}
+          />
+          <label htmlFor="password">Password *</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            value={password}
+            onChange={onChange}
+          />
+          <div className="form-btns">
+            <button>Submit</button>
+            <button onClick={toggle}>Cancle</button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };
