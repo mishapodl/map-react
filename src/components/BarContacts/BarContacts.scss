@@ -1,0 +1,148 @@
+$text-color-nav: #fff;
+$text-color-nav-hoevr: #000;
+$border-color-nav: #fff;
+$border-color-nav-hoevr: #000;
+
+$background-color-nav: #fff;
+$background-color-icons: #0000005c;
+
+$text-color-main-H2: #777;
+$border-color-main-H2: #000;
+
+$break-medium: 1024px;
+$break-small: 768px;
+
+@mixin border-header {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #fff;
+}
+
+@mixin info {
+  > li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    > a {
+      padding: 0 0.2rem;
+      color: #fff;
+      font-weight: 400;
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+      text-decoration: none;
+      > i.icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 1rem;
+        height: 1rem;
+        margin: 5px;
+				padding: 1rem;
+				border: 1px solid;
+        background-color: $background-color-icons;
+        border-radius: 100%;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+div#root > header {
+  > section.contact-information {
+    overflow: hidden;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+		-webkit-transform: translate(0px, -50%);
+		        transform: translate(0px, -50%);
+		-webkit-transition: .3s;
+		transition: .3s;
+		&:hover {
+			right: 20px;
+		}
+		@media (max-width: $break-medium) {
+			-webkit-transform: translate(0px, -40%);
+			        transform: translate(0px, -40%);
+		}
+    > ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      @include info;
+      > li > a {
+				margin: 5px 0;
+				> i.icon {
+					@media (max-width: $break-small) {
+						display: none;
+					}
+				}
+      }
+    }
+  }
+}
+
+div#root > footer {
+  > div.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    > section.contact-information {
+      overflow: hidden;
+      min-width: 300px;
+      border: 1px solid #fff;
+      padding: 0 0 1rem 0;
+      > header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 0 0.5rem;
+        > h3 {
+          @include border-header;
+          min-width: 100px;
+          text-align: center;
+          text-transform: uppercase;
+          font-weight: 400;
+          letter-spacing: 0.1rem;
+          font-size: 1.2rem;
+          color: #fff;
+        }
+      }
+      > ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        width: 100%;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        @include info;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}

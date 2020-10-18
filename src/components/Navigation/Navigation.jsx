@@ -1,13 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { MenuList } from './MenuList/MenuList';
 import './Navigation.scss';
 
-export const Navigation = ({ menu }) => (
-  <nav>
-    <ul>
-      {menu.map(({ name, to }) => {
-        return <li key={name}>{<Link to={to}>{name}</Link>}</li>;
-      })}
-    </ul>
-  </nav>
-);
+export const Navigation = ({ menu, mobile, toggle }) => {
+  return (
+    <>
+      <nav className={`mobile ${mobile}`}>
+        <span onClick={toggle} className="close">
+          <i className="fas fa-times" />
+        </span>
+        <MenuList menu={menu} />
+      </nav>
+      <div className={`menu-burger`} onClick={toggle}>
+        <i className="fas fa-bars" />
+      </div>
+    </>
+  );
+};
