@@ -12,14 +12,14 @@ export const mapReducer = (state = initialState, action) => {
         ...state,
         zoom: action.payload
       };
-    // case MAP.LOGOUT:
-    //   return {
-    //     state
-    //   };
-    // case MAP.LOGIN_SUCCESS:
-    //   return {
-    //     state
-    //   };
+    case MAP.SAVE_MARKER:
+      return {
+        state
+      };
+    case MAP.GET_MARKER:
+      return {
+        state
+      };
     // case MAP.LOGIN_FAILURE:
     //   return {
     //     state

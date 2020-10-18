@@ -5,5 +5,7 @@ export const AUTHORIZATION = {
   LOGIN_FAILURE: 'LOGIN_FAILURE'
 };
 export const MAP = {
-  ZOOM: 'ZOOM'
+  ZOOM: 'ZOOM',
+  SAVE_MARKER: 'SAVE_MARKER',
+  GET_MARKER: 'GET_MARKER'
 };

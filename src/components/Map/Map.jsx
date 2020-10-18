@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { withScriptjs, withGoogleMap, GoogleMap } from 'react-google-maps';
-import { useDispatch } from 'react-redux';
 import { position, GOOGLE_KEY } from '../../config';
+import { useMap } from './../../hooks/useMap';
 import './Map.scss';
-import { changeZoom } from './../../redux/actions/';
 
 const getCoords = async () => {
   const getPosition = coords => {
@@ -14,26 +13,20 @@ const getCoords = async () => {
 };
 
 const Map = () => {
-  const [zoom, setZoom] = useState(
-    JSON.parse(localStorage.getItem('zoom')) || 10
-  );
-  const dispatch = useDispatch();
+  const { onZoomIn, onZoomOut, zoom } = useMap();
 
-  const onZoomIn = () => {
-    setZoom(zoom + 1);
-    dispatch(changeZoom(zoom));
-  };
-  const onZoomOut = () => {
-    setZoom(zoom - 1);
-    dispatch(changeZoom(zoom));
-  };
-
-  return (
+  const contentMap = (
     <>
       <div className="zoomControls">
         <button onClick={onZoomIn}>+</button>
         <button onClick={onZoomOut}>-</button>
       </div>
+    </>
+  );
+
+  return (
+    <>
+      {contentMap}
       <GoogleMap
         defaultZoom={12}
         defaultCenter={position}
