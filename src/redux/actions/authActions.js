@@ -5,8 +5,9 @@ export const logIn = payload => ({
   payload
 });
 
-export const logOut = () => ({
-  type: AUTH.LOGOUT
+export const logOut = payload => ({
+  type: AUTH.LOGOUT,
+  payload
 });
 
 export const logInFailure = msg => ({
@@ -14,7 +15,7 @@ export const logInFailure = msg => ({
   msg
 });
 
-export const logInSuccess = msg => ({
+export const logInSuccess = payload => ({
   type: AUTH.LOGIN_SUCCESS,
-  msg
+  payload
 });

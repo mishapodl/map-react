@@ -19,7 +19,8 @@ module.exports = {
   plugins: ['react', 'import', 'react-hooks'],
   ignorePatterns: ['node_modules/'],
   rules: {
-    "react/prop-types" : 0
+    "react/prop-types" : 0,
+    "no-case-declarations": 0
   },
   settings: {
     react: {

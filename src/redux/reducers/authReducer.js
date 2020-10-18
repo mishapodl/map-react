@@ -10,23 +10,28 @@ const initialState = {
 export const authReducer = (state = initialState, action) => {
   switch (action.type) {
     case AUTH.LOGIN:
+      const { name } = action.payload;
+      localStorage.setItem('name', name);
       return {
         ...state,
-        username: action.payload.name,
+        username: name,
         isLogIn: true,
         error: ''
       };
     case AUTH.LOGOUT:
+      localStorage.setItem('login', action.payload);
       return {
         ...state,
         username: null,
-        isLogIn: false,
+        isLogIn: action.payload,
         error: ''
       };
     case AUTH.LOGIN_SUCCESS:
+      localStorage.setItem('login', action.payload);
       return {
         ...state,
-        username: action.payload,
+        username: localStorage.getItem('name'),
+        isLogIn: true,
         success: action.msg
       };
     case AUTH.LOGIN_FAILURE:

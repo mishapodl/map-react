@@ -13,6 +13,7 @@ export const Login = () => {
   const updateForm = dataForm => {
     if (checkCredentials(dataForm)) {
       dispatch(auth.logIn(dataForm));
+      dispatch(auth.logInSuccess(true));
     } else {
       dispatch(auth.logInFailure('Invalid user data!'));
     }
