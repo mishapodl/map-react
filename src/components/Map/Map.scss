@@ -1,5 +1,30 @@
+.map {
+  position: relative;
+}
 .wrapper-map {
   height: 100vh;
   padding: 50px;
   box-sizing: border-box;
 }
+.zoomControls {
+  position: absolute;
+  top: 0px;
+  right: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.zoomControls button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-size: 25px;
+  outline: none;
+  transition: .3s;
+}
+.zoomControls button:hover {
+  background: #e0e0e0;
+} 
