@@ -5,20 +5,9 @@ import { CLIENT_ID } from './../config';
 export const GoogleButton = () => {
   const [isSignIn, setSignIn] = useState(false);
 
-  const onSuccess = res => {
-    setSignIn(true);
-    console.log('Success login: ', res);
-  };
-
-  const onFailure = res => {
-    setSignIn(false);
-    console.log('Failure login: ', res);
-  };
-
-  const onLogout = res => {
-    setSignIn(false);
-    console.log('LogOut: ', res);
-  };
+  const onSuccess = () => setSignIn(true);
+  const onFailure = () => setSignIn(false);
+  const onLogout = () => setSignIn(false);
 
   const button = isSignIn ? (
     <GoogleLogout
