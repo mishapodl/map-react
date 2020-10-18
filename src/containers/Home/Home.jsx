@@ -1,9 +1,10 @@
 import React from 'react';
+import { MapComponent } from './../../components/Map/Map';
 
 const Home = () => {
   return (
-    <div>
-      Hello
+    <div className="map">
+      <MapComponent />
     </div>
   );
 };

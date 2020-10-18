@@ -1,9 +1,12 @@
 import React from 'react'
+import './Profile.scss'
 
 export const Profile = () => {
   return (
-    <div>
+    <>
+    <div className="profile">
       Profile
     </div>
+    </>
   )
 }
