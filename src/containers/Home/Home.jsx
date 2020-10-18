@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { Form } from '../components/Form/Form';
-import * as auth from './../redux/actions';
-import { checkCredentials } from '../utils';
+import { Form } from '../../components/Form/Form';
+import * as auth from '../../redux/actions';
+import { checkCredentials } from '../../utils';
 
 const Home = () => {
   const [isLogIn, setIsLogin] = useState(false);
@@ -28,7 +27,6 @@ const Home = () => {
 
   return (
     <div>
-      <Link to="/about">About</Link>
       {isLogIn ? (
         <>
           <p>Hello: {user}</p>
@@ -40,4 +38,5 @@ const Home = () => {
     </div>
   );
 };
+
 export default Home;
