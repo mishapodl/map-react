@@ -6,7 +6,7 @@ import { Logo } from './../../components/Logo/Logo';
 import './Header.scss';
 
 export const Header = () => {
-  const [mobile, setMobile] = useState(null)
+  const [mobile, setMobile] = useState(null);
 
   const isToggle = () => setMobile(!mobile);
 
@@ -15,10 +15,10 @@ export const Header = () => {
       <div>
         <Logo />
         <div className="menu-panel">
-          <Navigation
-            menu={routesHeader}
-            toggle={isToggle}
-            mobile={mobile}
+          <Navigation 
+            menu={routesHeader} 
+            toggle={isToggle} 
+            mobile={mobile} 
           />
           <div className="auth-panel">
             {/* {!isAuthenticated ? (
