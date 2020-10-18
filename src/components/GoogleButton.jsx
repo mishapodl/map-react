@@ -1,13 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { GoogleLogin, GoogleLogout } from 'react-google-login';
+import { useDispatch, useSelector } from 'react-redux';
+import * as auth from '../redux/actions';
 import { CLIENT_ID } from './../config';
 
 export const GoogleButton = () => {
-  const [isSignIn, setSignIn] = useState(false);
+  const dispatch = useDispatch();
+  const { isSignIn } = useSelector(state => state.authReducer);
 
-  const onSuccess = () => setSignIn(true);
-  const onFailure = () => setSignIn(false);
-  const onLogout = () => setSignIn(false);
+  const onSuccess = () => {
+    dispatch(auth.logIn('admin'));
+  };
+  const onFailure = () => {
+    dispatch(auth.logInFailure('Invalid user data!'));
+  };
+  const onLogout = () => {
+    dispatch(auth.logOut(''));
+  };
 
   const button = isSignIn ? (
     <GoogleLogout
@@ -26,10 +35,5 @@ export const GoogleButton = () => {
     />
   );
 
-  return (
-    <>
-      {button}
-      <p>{isSignIn ? 'You are loged in' : 'please sing in'}</p>
-    </>
-  );
+  return <>{button}</>;
 };
