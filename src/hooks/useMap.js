@@ -7,8 +7,10 @@ import {
   getMarkers,
   removeMarkers
 } from './../redux/actions/';
+import data from '../data.json';
 
 export const useMap = () => {
+  const [places, setPlaces] = useState([]);
   const [zoom, setZoom] = useState(
     JSON.parse(localStorage.getItem('zoom')) || 10
   );
@@ -42,6 +44,10 @@ export const useMap = () => {
   const onGetMarkers = () => dispatch(getMarkers());
   const onRemoveMarkers = () => dispatch(removeMarkers());
 
+  const onShowPlaces = place => {
+    return setPlaces(data[place.toLowerCase()].result || []);
+  };
+  console.log(places);
   return {
     onZoomIn,
     onZoomOut,
@@ -49,7 +55,9 @@ export const useMap = () => {
     onSaveMarkers,
     onGetMarkers,
     onRemoveMarkers,
+    onShowPlaces,
     zoom,
-    markers
+    markers,
+    places
   };
 };

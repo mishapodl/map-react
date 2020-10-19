@@ -1,0 +1,917 @@
+{
+  "restaurants": {
+    "result": [
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Вул. Марії Заньковецької 10, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2943355,
+            "lng": 25.93422
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.29572327989272,
+              "lng": 25.93559132989272
+            },
+            "southwest": {
+              "lat": 48.29302362010728,
+              "lng": 25.93289167010727
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "DiBocca",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 2304,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/112106186081437820400\"\u003eДи Бокка\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAtK0NNUXMK3DEFda03142UTtvB99DGAfDIovW35-JPqTVvu_f3VQMybmm1mx52gdhycIJZSxsecv2KdmCKLnkrgo9Bax0ThPmeuW0mRBvV_i2Y_ejTAVTxPLktd2r4cySEhDWDTVd9ys5SfK3MrwxKX2cGhScmbVX--pcKM3XlW6H8O_rrn_jMQ",
+            "width": 4608
+          }
+        ],
+        "place_id": "ChIJ5XJ5u5sINEcRGGKymQgRPlM",
+        "plus_code": {
+          "compound_code": "7WVM+PM Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WVM+PM"
+        },
+        "price_level": 3,
+        "rating": 4.4,
+        "reference": "ChIJ5XJ5u5sINEcRGGKymQgRPlM",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 376
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Hete St, 9, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2927118,
+            "lng": 25.9300187
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.29406867989272,
+              "lng": 25.93148992989272
+            },
+            "southwest": {
+              "lat": 48.29136902010728,
+              "lng": 25.92879027010727
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Yoki To Go",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 2034,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/110609816932518126455\"\u003eA Google User\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAADaX5q5feoP-Cl4aMv0pnTZS12ZsLssGBEoO14KMZXms_RY8DpXlKkDfa4q78JnCe08kbbRwlu9tnYcuTtXxFut4IsRAwzHgCPKMLmkjZ4RM_800nEoXVVTmzuudXh-4XEhB2Q-ZKtb0-77LakMdccG9FGhRztmi2Z212j2geSjxQAiXPTvn1kg",
+            "width": 2034
+          }
+        ],
+        "place_id": "ChIJc5ZPw9AJNEcRwILDirnwHRI",
+        "plus_code": {
+          "compound_code": "7WVJ+32 Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WVJ+32"
+        },
+        "rating": 4.9,
+        "reference": "ChIJc5ZPw9AJNEcRwILDirnwHRI",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 310
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Vorobkevycha St, 17, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2574322,
+            "lng": 25.9467311
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.25872932989272,
+              "lng": 25.94789977989272
+            },
+            "southwest": {
+              "lat": 48.25602967010728,
+              "lng": 25.94520012010727
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Kampana",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 2988,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/108758906644723190835\"\u003eТетяна Паскаль\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAECnfn_tVc1-WYnMyy8Jys7RhQMHbXeNEBZ-HHm9FsgcYXE_uE_3H8ZXMrrkgtC_Z3yrWrEglLbhXmS7bVoOwBAOyv59ScymfpKBS7XGndi_-5WgVEQMzfgUyHnfwzHI4EhDEPrMrpknouAxVGCHWrSwZGhSxzKj9EEmQROziRflUXRzy64R1vA",
+            "width": 5312
+          }
+        ],
+        "place_id": "ChIJDzxoVSkPNEcR7xSVJqyrvk8",
+        "plus_code": {
+          "compound_code": "7W4W+XM Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77W4W+XM"
+        },
+        "price_level": 3,
+        "rating": 4.5,
+        "reference": "ChIJDzxoVSkPNEcR7xSVJqyrvk8",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 569
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Nezalezhnosti Ave, 96 А, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2694199,
+            "lng": 25.9266392
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.27071432989272,
+              "lng": 25.92800892989273
+            },
+            "southwest": {
+              "lat": 48.26801467010728,
+              "lng": 25.92530927010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Ozzy Fast food",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 4032,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/102968951062359804046\"\u003eA Google User\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAALIOWUtgdpjJj72h4vq5t6tLQo9KNLb8toXiDl0ShOqZY8Cs54FNCWzRlSNqOCFm3ULutXKC-krpAPxwgDLeJmJ46R7DaR5LIGhW-ENt9Qc14RInrRYOXgAza4U501wQbEhCKsBj6gvEGTLJi4eKBwwYKGhTZu0T0CT2--xcJ0KEgN2o2MJnDwQ",
+            "width": 3024
+          }
+        ],
+        "place_id": "ChIJWyVP7LQINEcRKPpm7UopWlQ",
+        "plus_code": {
+          "compound_code": "7W9G+QM Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77W9G+QM"
+        },
+        "rating": 4.4,
+        "reference": "ChIJWyVP7LQINEcRKPpm7UopWlQ",
+        "types": [
+          "cafe",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 2199
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Holovna St, 215, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2652625,
+            "lng": 25.9512305
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.26659132989272,
+              "lng": 25.95250982989272
+            },
+            "southwest": {
+              "lat": 48.26389167010728,
+              "lng": 25.94981017010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Taj Indian Restaurant",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 2304,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/112980873188906483897\"\u003eUjjaval Solanki\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAoquKYshQqulh-n1lUNzWCmforRLZbt7RbvsolIuAs7zlfoIxJSj3Nuh4itU96bDH01lSt8JP1AG2CJ0Qw5qclQUpKuaJmEmLYF-L2TH-crcUW1lId9HygTA_eibPowgYEhA_RF5xGrBHi3sfJUqW3_U7GhT7HQVo6ZcRu9zSkOAUsf384N9nMw",
+            "width": 4096
+          }
+        ],
+        "place_id": "ChIJn6sNu9MINEcRtbz8IesiUpQ",
+        "plus_code": {
+          "compound_code": "7X82+4F Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77X82+4F"
+        },
+        "rating": 4.5,
+        "reference": "ChIJn6sNu9MINEcRtbz8IesiUpQ",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 52
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Nezalezhnosti Ave, 96, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2695315,
+            "lng": 25.9261806
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.27086677989271,
+              "lng": 25.92750852989272
+            },
+            "southwest": {
+              "lat": 48.26816712010727,
+              "lng": 25.92480887010727
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "\"KUCHERI\"",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 960,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/101213297355737485798\"\u003eA Google User\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAFPS5J0lfxpjZ58R0ht7xzVLhMjZRkWQDULoAloy9aFW0dT2-05CsvnorxKuHwvisFT71CPDgXLZOlkZSr6BsP3zg-a2IdzTXvm_wqzyjIqowPK6VFVtTdD2Iu1cpNioMEhD3_HvskF2w4ZZb7VEnGrsJGhQSQG2fFvpInJB5ULqrmL_SksUwDQ",
+            "width": 780
+          }
+        ],
+        "place_id": "ChIJrzEkRPgJNEcRKXnwZv6aU-E",
+        "plus_code": {
+          "compound_code": "7W9G+RF Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77W9G+RF"
+        },
+        "rating": 4.5,
+        "reference": "ChIJrzEkRPgJNEcRKXnwZv6aU-E",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 155
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Holovna St, 66, Chernivtsi, Черновицкая, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2861111,
+            "lng": 25.9361111
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.28752217989273,
+              "lng": 25.93767657989272
+            },
+            "southwest": {
+              "lat": 48.28482252010728,
+              "lng": 25.93497692010727
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "РЕФЛЕКШН, РЕСТОРАН",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 3024,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/104490961971830481007\"\u003eTatiana Baranova\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAA7w-bI7dxRLc-LcmxQUQfg3-FWLFdQYR5iDLrpKgj8jHlqJVWwpg61pLkcZBkdwwEiCYOUYQQRLmqaAAfPuqPZlA1UKUhofMMTN10xBSv763OQYD-SCg-L1hezVd1A9p0EhAMDDvUwTETBUxiimtCC2VGGhR8lk4pRy67IgB63iVayVVEdq3fJQ",
+            "width": 4032
+          }
+        ],
+        "place_id": "ChIJveGIgr0INEcRuE89Tmlw-Gs",
+        "plus_code": {
+          "compound_code": "7WPP+CC Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WPP+CC"
+        },
+        "price_level": 2,
+        "rating": 4.5,
+        "reference": "ChIJveGIgr0INEcRuE89Tmlw-Gs",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 82
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "19B, Nebesnoyi sotni St, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2644761,
+            "lng": 25.9395574
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.26581867989272,
+              "lng": 25.94072987989272
+            },
+            "southwest": {
+              "lat": 48.26311902010728,
+              "lng": 25.93803022010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Don Gustavo",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 2448,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/112484345953857127459\"\u003eOlya Filianovych\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAY9puyCB88Oe6l_o23FagQgsKtILoJwijS1IsA_n8l0dqzsAdxYChB_3jeEwuX8PYVFopKVf6H-QtUv27QzJ_YTunEx67KCFUkmIJaUIucWSzJxrMNwyukJevqNtp0v81EhB4HbiQ3JGn7TGvtETwDVmkGhS7jBNWwOjoecz95yrSxxEbu3IEBg",
+            "width": 3264
+          }
+        ],
+        "place_id": "ChIJk9QGKjMPNEcRUTbfh5nW7dA",
+        "plus_code": {
+          "compound_code": "7W7Q+QR Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77W7Q+QR"
+        },
+        "price_level": 2,
+        "rating": 4.5,
+        "reference": "ChIJk9QGKjMPNEcRUTbfh5nW7dA",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 1528
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "1, Tsentral'na Square, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2914504,
+            "lng": 25.9344272
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.29281417989272,
+              "lng": 25.93572622989272
+            },
+            "southwest": {
+              "lat": 48.29011452010727,
+              "lng": 25.93302657010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Хінкальня на Центральній площі",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 1333,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/103667976543475954967\"\u003eA Google User\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAjlXzAZUeEk-23eir1hOYP3i9kUV4_7i5psvJ4F2WbK_f7dLNLfoQwJ2ZK8wXnJCrOc-VV1iO4GTxLDJNXxirdIb--ukXu8ykMod2GggR1q-aWJk_3mwSnYWwrnlg_2kxEhAgB7ledEJKEuwF7mJb3Dq0GhQoolfdHKhkhZHRw472fWzoTh8xRw",
+            "width": 2000
+          }
+        ],
+        "place_id": "ChIJszxnkpkINEcR-DqDqohQE-4",
+        "plus_code": {
+          "compound_code": "7WRM+HQ Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WRM+HQ"
+        },
+        "price_level": 2,
+        "rating": 4.5,
+        "reference": "ChIJszxnkpkINEcR-DqDqohQE-4",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 799
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Sadova Street, 26, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2812977,
+            "lng": 25.9327212
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.28249752989272,
+              "lng": 25.93412202989272
+            },
+            "southwest": {
+              "lat": 48.27979787010727,
+              "lng": 25.93142237010727
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Friends House",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 3024,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/104700778710338494475\"\u003eOleg Ivanets\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAJiXof5oIpD0ynYy40n2eeN0KoabJf_R3eTp5JlHhs5OUcqWjt-HpLnQe3CyIaugyQlWz9iEwcSZFOFIShc5iKc-8mZPAoMeDDOr_10PKsNmNr18UgC7OYcZp-YI1aW-ZEhAByQzCgwa9h4bx0SXRK0R4GhSfhptwZlwMe0IQebuferMdJSFX8g",
+            "width": 4032
+          }
+        ],
+        "place_id": "ChIJ7xPXkLsINEcRJ2dAP-jlGYg",
+        "plus_code": {
+          "compound_code": "7WJM+G3 Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WJM+G3"
+        },
+        "price_level": 2,
+        "rating": 4.4,
+        "reference": "ChIJ7xPXkLsINEcRJ2dAP-jlGYg",
+        "types": [
+          "meal_delivery",
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 690
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Ivana Franka St, 3, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2911757,
+            "lng": 25.9342757
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.29254167989272,
+              "lng": 25.93556662989272
+            },
+            "southwest": {
+              "lat": 48.28984202010728,
+              "lng": 25.93286697010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Pizza Monopoli",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 3024,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/106819916252918847000\"\u003eOlga Shyskovska\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAvCJvAjFoGuImoOabNCrqWXkIWyC77sPp92dU-CCAmAfhQ4KIlnCbyxSjdo3H2abvu43XtrRXO5EZWHr6-X2Rlp-qcwo9muo3WXrTPDaXzgtah_tB7nQArTF5D-JdnyJtEhBc3UiQ2fyv3_3kBUeURz1mGhSCXLfNUtQpCHOD6S0K0T_GI6tWtQ",
+            "width": 4032
+          }
+        ],
+        "place_id": "ChIJU3OB9ZkINEcRr8EGkWJOE-0",
+        "plus_code": {
+          "compound_code": "7WRM+FP Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WRM+FP"
+        },
+        "price_level": 3,
+        "rating": 4.4,
+        "reference": "ChIJU3OB9ZkINEcRr8EGkWJOE-0",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 412
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Вул. О. Кобилянської, 6, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.29118039999999,
+            "lng": 25.9353162
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.29255472989272,
+              "lng": 25.93652952989272
+            },
+            "southwest": {
+              "lat": 48.28985507010728,
+              "lng": 25.93382987010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Koleso Etno-Restoran",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 719,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/114321738011956427018\"\u003eA Google User\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAA620QcSa6YFGtGdqdRLj6XQ7Sy3GYkUlsS1vo4DbHsgI66G0aiSX_fFhbe3B6iHvL-WuXobnfR5OP5ZSOlBVPRjwCLcsr43m31rqPzmYuYj-vswrr2nN_cXC2iHey9H5tEhDF5FORD2sPzn03ACDFEGRdGhTEl2zxcO6bCK2sgNTuPaL2hIuaKw",
+            "width": 1080
+          }
+        ],
+        "place_id": "ChIJQXDE6JkINEcRi7ZQQvwa0vY",
+        "plus_code": {
+          "compound_code": "7WRP+F4 Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WRP+F4"
+        },
+        "price_level": 2,
+        "rating": 4.6,
+        "reference": "ChIJQXDE6JkINEcRi7ZQQvwa0vY",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 478
+      }
+    ],
+    "status": "OK"
+  },
+  "hospitals": {
+    "result": [
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Holovna St, 72, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2856926,
+            "lng": 25.9365599
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.28708467989271,
+              "lng": 25.93805302989272
+            },
+            "southwest": {
+              "lat": 48.28438502010727,
+              "lng": 25.93535337010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "ШніцельОк",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 720,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/101389415434414935106\"\u003eІнна Докієна\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAvvvYjZZRnVD8Q7rAF5azPEL3CnJFdKlkLEXNTtcQc4W3HxPDX8N50etWC-1rCeqnOYHQIPwaO68iwdsc7T28ZEj7_35huCH_W9oO6sdRbGrRAZSc4e5R3AB2SMZrAN4YEhCWcOCnV0zabCUB420fwEkjGhQtc4sYAw3hVc_H-F0n7ATilpLApA",
+            "width": 1280
+          }
+        ],
+        "place_id": "ChIJ4xg-kEwJNEcRR7S6t9up12s",
+        "plus_code": {
+          "compound_code": "7WPP+7J Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WPP+7J"
+        },
+        "rating": 5,
+        "reference": "ChIJ4xg-kEwJNEcRR7S6t9up12s",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 13
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Geroyiv Maydanu St, 38, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2848135,
+            "lng": 25.9329224
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.28614712989272,
+              "lng": 25.93436372989272
+            },
+            "southwest": {
+              "lat": 48.28344747010728,
+              "lng": 25.93166407010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Hopachok",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 2268,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/100873877774321667056\"\u003eAndriy Lagutin\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAASPNJSAcIDz1bOcNido7i4gA86SEk_8J2a38xT7H1yMb0N9Gbq6ptXuktrtupxjDAtSOXMzHbTNRW-lIeAZSYOzVQXCKg8gIHAhLJahOyHmnU0N52yUGFMmZoEkURRDeaEhByV3HmBwTaToD6AhatvxAcGhQNuzcKClUkoCX3LtrGFZFYHCCyNA",
+            "width": 4032
+          }
+        ],
+        "place_id": "ChIJN_EB4LwINEcRg0EyiOQny4g",
+        "plus_code": {
+          "compound_code": "7WMM+W5 Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WMM+W5"
+        },
+        "price_level": 2,
+        "rating": 4.5,
+        "reference": "ChIJN_EB4LwINEcRg0EyiOQny4g",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 1537
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Kobylyans'koi St, 5, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2909351,
+            "lng": 25.936065
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.29234817989271,
+              "lng": 25.93745372989272
+            },
+            "southwest": {
+              "lat": 48.28964852010727,
+              "lng": 25.93475407010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Pansʹka Huralʹnya",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 4160,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/106513525571242093321\"\u003eA Google User\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAIu-V8nfm7rRRGe2Wc_QSg9yoGAuoyRfE_A6h5uJNO2S7teYJYwgyQYHoKQqb4Os7Zw4-x3u4OvUHqbtQeV4XLwPm385u4v6DeIlUQb44SLVm2-qxaS_FPguuNFkdG0uMEhC8H75_hDLUtH9UWqOqOyjkGhRZa73vWM4rXDCdN8oWKusGeNznzw",
+            "width": 6240
+          }
+        ],
+        "place_id": "ChIJNfYz4ZkINEcRAUPQAqctnXA",
+        "plus_code": {
+          "compound_code": "7WRP+9C Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WRP+9C"
+        },
+        "price_level": 2,
+        "rating": 4.6,
+        "reference": "ChIJNfYz4ZkINEcRAUPQAqctnXA",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 3251
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Universytets'ka St, 48, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2949077,
+            "lng": 25.9271751
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.29621762989272,
+              "lng": 25.92842562989272
+            },
+            "southwest": {
+              "lat": 48.29351797010727,
+              "lng": 25.92572597010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Rita Steinberg",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 1960,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/102525885464238445404\"\u003eVlad Ougriniouk\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAmKVRSn3t1MWl8C5tXViVHz2i7Fe7ionb-iQfwaUpsHLZdhLaOtpcGJbRblaqRjKEkqCEOWAFXI1ygmQPFYtG-q6Nqt4ba3qv1vrIS_6wNoAB8cW8g-LZbj1JTgjdDKFnEhA8copArA-r4EyvFhu34xRLGhTDjuI6B1BRn7KgFiriwv5wOFJlFQ",
+            "width": 3220
+          }
+        ],
+        "place_id": "ChIJ-ZhwS2AJNEcRxD83lzqieFI",
+        "plus_code": {
+          "compound_code": "7WVG+XV Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WVG+XV"
+        },
+        "price_level": 2,
+        "rating": 4.7,
+        "reference": "ChIJ-ZhwS2AJNEcRxD83lzqieFI",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 739
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Teatral'na Square, 3, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2914731,
+            "lng": 25.9317386
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.29286762989273,
+              "lng": 25.93314177989272
+            },
+            "southwest": {
+              "lat": 48.29016797010728,
+              "lng": 25.93044212010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Zone of #Secret Kitchen",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 3264,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/114573001105368953898\"\u003eКристина Пономаренко\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAITEjXJPdyOtE5X9VOx6ZqByg6QflFu97SDtvfKyjJWszcB07tEziykCaK61lwdTsWEdzGdSS5-roN0AmXXdWfSV3C1hzIYBMSQHvrIVIuDVWuERdDlo1RALV61G0f1tEEhBh3rkcDnHov_KY48yAXkaaGhS4NvhN3_G-E_iQBkqq0OICuJ6Lyg",
+            "width": 2448
+          }
+        ],
+        "place_id": "ChIJZVQUZZkINEcRi7cMb9OM5f8",
+        "plus_code": {
+          "compound_code": "7WRJ+HM Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WRJ+HM"
+        },
+        "price_level": 3,
+        "rating": 4.4,
+        "reference": "ChIJZVQUZZkINEcRi7cMb9OM5f8",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 519
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Lysenka St, 2, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.2921244,
+            "lng": 25.9309393
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.29343142989272,
+              "lng": 25.93229557989272
+            },
+            "southwest": {
+              "lat": 48.29073177010728,
+              "lng": 25.92959592010728
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Yoki Asian Food",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 1960,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/117086919427591412668\"\u003eІван Самота\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAA0QPyQAvhgkfg-MC6A25UaQrX_D5v0wQlUqYkA_RF-cwKd6FfOQF_jx-IJ_dHw7yX9geQEcv-b0zZkQ_J63Wc6dSxwwXpFzruFL7O4ISLQ_aaznXBL5MtzLSmHFjsPlNEhCHcSG-KSVqIwxbqB7FTFv6GhRpzQE9fPRF8Nb9Cf36Jwvfo9DEfw",
+            "width": 4032
+          }
+        ],
+        "place_id": "ChIJF5seQZkINEcR2lN7WggY2c0",
+        "plus_code": {
+          "compound_code": "7WRJ+R9 Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WRJ+R9"
+        },
+        "price_level": 2,
+        "rating": 4.7,
+        "reference": "ChIJF5seQZkINEcR2lN7WggY2c0",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 1086
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Nezalezhnosti Ave, 96, Chernivtsi, Черновицкая, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.269585,
+            "lng": 25.9258585
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.27093627989272,
+              "lng": 25.92720882989272
+            },
+            "southwest": {
+              "lat": 48.26823662010728,
+              "lng": 25.92450917010727
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "ЧІЧЕРІ, РЕСТОРАН",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 3024,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/116337714415289658612\"\u003eChill Will\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAAZLeM_3LfS-GDfI7a6et03_Bwt0AcypCNM6PDyBxBjxR02rRzb9GyVmoF9k_x9mge5zlt7fDElGhWRzvol9__QG0ZWA7kS6-2ho1-BpruxHKUtRpYhUh4m-SO9DqYwU6FEhChlots7ffnbkeXQVYHRriMGhRldbpRxym5PwbZDSA7HdQS4-Fp_g",
+            "width": 4032
+          }
+        ],
+        "place_id": "ChIJ8Tnn7LQINEcRjwePYqRyvuU",
+        "plus_code": {
+          "compound_code": "7W9G+R8 Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77W9G+R8"
+        },
+        "price_level": 2,
+        "rating": 4.4,
+        "reference": "ChIJ8Tnn7LQINEcRjwePYqRyvuU",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 781
+      },
+      {
+        "business_status": "CLOSED_TEMPORARILY",
+        "formatted_address": "Kobylyans'koi St, 20, Chernivtsi, Chernivtsi Oblast, Ukraine, 58000",
+        "geometry": {
+          "location": {
+            "lat": 48.289531,
+            "lng": 25.9366608
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 48.29106907989271,
+              "lng": 25.93797817989272
+            },
+            "southwest": {
+              "lat": 48.28836942010727,
+              "lng": 25.93527852010727
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Kioto",
+        "permanently_closed": true,
+        "photos": [
+          {
+            "height": 3000,
+            "html_attributions": [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/105119795724695197709\"\u003ePavlo Posonskyi\u003c/a\u003e"
+            ],
+            "photo_reference": "CmRaAAAADaAkJ4uwdPnnXiCgrOtQzBDz3K__yxRO1G97_Y-KaxDIvcP4z6PCIYnwrpnbaHAeQy2Fcny0F9JQGVKKw5TbThhpHcIJYABwqBV-AZ_H3aPwTm3XhsaY2GLIhrKzs9ymEhAcOo-ZweopIiBeXjqZpFvGGhTUj0oJNrHFt6AOrHoSfNLk0Ra92g",
+            "width": 4000
+          }
+        ],
+        "place_id": "ChIJHTWLdpcINEcRKTyHjyyRwOI",
+        "plus_code": {
+          "compound_code": "7WQP+RM Chernivtsi, Chernivtsi Oblast",
+          "global_code": "8GW77WQP+RM"
+        },
+        "price_level": 3,
+        "rating": 4.5,
+        "reference": "ChIJHTWLdpcINEcRKTyHjyyRwOI",
+        "types": ["restaurant", "food", "point_of_interest", "establishment"],
+        "user_ratings_total": 668
+      }
+    ]
+  }
+}
