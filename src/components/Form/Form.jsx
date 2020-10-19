@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Form.scss';
 
-export const Form = ({ updateForm, msg, toggle }) => {
+export const Form = ({ updateForm, msg, toggle, modal }) => {
   const initInputState = {
     name: '',
     password: ''
@@ -22,7 +22,7 @@ export const Form = ({ updateForm, msg, toggle }) => {
 
   return (
     <div className="regisetr-modal">
-      <div className="bg-overlay" />
+      <div className={`bg-overlay ${modal ? 'show' : ''}`} />
       <div className="modal-form">
         {msg ? <p>{msg}</p> : null}
         <form action="POST" onSubmit={onSubmit}>

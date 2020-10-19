@@ -15,6 +15,7 @@ const getCoords = async () => {
     position.lng = coords.coords.longitude;
   };
   navigator.geolocation.getCurrentPosition(getPosition);
+  return position;
 };
 
 const Map = () => {
@@ -25,8 +26,10 @@ const Map = () => {
     onSaveMarkers,
     onGetMarkers,
     onRemoveMarkers,
+    onShowPlaces,
     zoom,
-    markers
+    markers,
+    places
   } = useMap();
 
   const contentMap = (
@@ -40,6 +43,14 @@ const Map = () => {
           <button onClick={onSaveMarkers}>Save markers</button>
           <button onClick={onGetMarkers}>Show markers</button>
           <button onClick={onRemoveMarkers}>Remove markers</button>
+        </div>
+        <div className="places">
+          <button onClick={e => onShowPlaces(e.target.value)} value="restaurants">
+            Restaurants
+          </button>
+          <button onClick={e => onShowPlaces(e.target.value)} value="hospitals">
+            Hospitals
+          </button>
         </div>
       </div>
     </>
@@ -58,6 +69,9 @@ const Map = () => {
         {markers.map(({ lat, lng }, index) => {
           return <Marker key={index} position={{ lat, lng }} />;
         })}
+        {places.map(({ geometry: { location: { lat, lng } } }, index) => (
+          <Marker key={index} position={{ lat, lng }} />
+        ))}
       </GoogleMap>
     </>
   );

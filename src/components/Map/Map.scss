@@ -25,6 +25,8 @@
 }
 
 .conrol-panel {
+  display: flex;
+  justify-content: space-between;
   position: absolute;
   top: 0px;
   right: 50px;
@@ -72,5 +74,21 @@
     & button:nth-child(2) {
       margin: 0 10px;
     }
+  }
+}
+.places {
+  background-color: #fff;
+  padding: 5px 5px;
+  width: 210px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  margin-left: 10px;
+  & button {
+    width: 100px;
+    height: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    @include button;
   }
 }
