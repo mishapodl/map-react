@@ -13,6 +13,7 @@ export const Header = () => {
 
   return (
     <header>
+      <div className="bg-overlay"></div>
       <div>
         <Logo />
         <div className="menu-panel">

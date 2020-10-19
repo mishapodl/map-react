@@ -8,6 +8,7 @@ import './Footer.scss';
 export const Footer = () => {
   return (
     <footer>
+      <div className="bg-overlay"></div>
       <div className="container">
         <Navigation menu={routesFooter} />
         <BarContacts showHaderSection={true} />

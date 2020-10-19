@@ -17,9 +17,10 @@ export const mapReducer = (state = initialState, action) => {
       localStorage.setItem('markers', JSON.stringify(state.markers));
       return state;
     case MAP.GET_MARKERS:
+      const markers = JSON.parse(localStorage.getItem('markers'));
       return {
         ...state,
-        markers: JSON.parse(localStorage.getItem('markers'))
+        markers: markers.length ? markers : []
       };
     case MAP.ADD_MARKER:
       return {
@@ -27,7 +28,7 @@ export const mapReducer = (state = initialState, action) => {
         markers: action.payload
       };
     case MAP.REMOVE_MARKERS:
-      localStorage.removeItem('markers');
+      localStorage.setItem('markers', JSON.stringify([]));
       return {
         ...state,
         markers: []
