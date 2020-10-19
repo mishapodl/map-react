@@ -27,6 +27,7 @@ export const Login = () => {
           updateForm={updateForm}
           msg={error}
           toggle={() => setModal(false)}
+          modal={modal}
         />
       )}
     </>

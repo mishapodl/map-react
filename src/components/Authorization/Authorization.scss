@@ -6,13 +6,17 @@
       justify-content: space-around;
   .regisetr-modal {
     .bg-overlay {
-      position: absolute;
+      display: none;
       left: 0;
       height: 100vh;
       width: 100%;
       background: #0000007d;
       top: 0;
       z-index: 1;
+      &.show {
+        position: fixed !important;
+        display: block;
+      }
     }
     .modal-form {
       display: -webkit-box;
