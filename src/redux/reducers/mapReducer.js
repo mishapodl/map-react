@@ -1,7 +1,8 @@
 import { MAP } from '../constants';
 
 const initialState = {
-  zoom: 10
+  zoom: 10,
+  markers: []
 };
 
 export const mapReducer = (state = initialState, action) => {
@@ -13,17 +14,24 @@ export const mapReducer = (state = initialState, action) => {
         zoom: action.payload
       };
     case MAP.SAVE_MARKER:
+      localStorage.setItem('markers', JSON.stringify(state.markers));
+      return state;
+    case MAP.GET_MARKERS:
       return {
-        state
+        ...state,
+        markers: JSON.parse(localStorage.getItem('markers'))
       };
-    case MAP.GET_MARKER:
+    case MAP.ADD_MARKER:
       return {
-        state
+        ...state,
+        markers: action.payload
       };
-    // case MAP.LOGIN_FAILURE:
-    //   return {
-    //     state
-    //   };
+    case MAP.REMOVE_MARKERS:
+      localStorage.removeItem('markers');
+      return {
+        ...state,
+        markers: []
+      };
     default:
       return state;
   }

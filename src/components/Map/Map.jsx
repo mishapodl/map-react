@@ -1,5 +1,10 @@
 import React from 'react';
-import { withScriptjs, withGoogleMap, GoogleMap } from 'react-google-maps';
+import {
+  withScriptjs,
+  withGoogleMap,
+  GoogleMap,
+  Marker
+} from 'react-google-maps';
 import { position, GOOGLE_KEY } from '../../config';
 import { useMap } from './../../hooks/useMap';
 import './Map.scss';
@@ -13,13 +18,29 @@ const getCoords = async () => {
 };
 
 const Map = () => {
-  const { onZoomIn, onZoomOut, zoom } = useMap();
+  const {
+    onZoomIn,
+    onZoomOut,
+    onSetMarker,
+    onSaveMarkers,
+    onGetMarkers,
+    onRemoveMarkers,
+    zoom,
+    markers
+  } = useMap();
 
   const contentMap = (
     <>
-      <div className="zoomControls">
-        <button onClick={onZoomIn}>+</button>
-        <button onClick={onZoomOut}>-</button>
+      <div className="conrol-panel">
+        <div className="control-panel-zoom">
+          <button onClick={onZoomIn}>+</button>
+          <button onClick={onZoomOut}>-</button>
+        </div>
+        <div className="conrol-panel-markers">
+          <button onClick={onSaveMarkers}>Save markers</button>
+          <button onClick={onGetMarkers}>Show markers</button>
+          <button onClick={onRemoveMarkers}>Remove markers</button>
+        </div>
       </div>
     </>
   );
@@ -31,8 +52,13 @@ const Map = () => {
         defaultZoom={12}
         defaultCenter={position}
         options={{ disableDefaultUI: true }}
+        onClick={onSetMarker}
         zoom={zoom}
-      />
+      >
+        {markers.map(({ lat, lng }, index) => {
+          return <Marker key={index} position={{ lat, lng }} />;
+        })}
+      </GoogleMap>
     </>
   );
 };

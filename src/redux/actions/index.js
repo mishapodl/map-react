@@ -1,4 +1,20 @@
 import { logInFailure, logIn, logOut, logInSuccess } from './authActions';
-import { changeZoom } from './mapActions';
+import {
+  changeZoom,
+  addMarker,
+  saveMarkers,
+  getMarkers,
+  removeMarkers
+} from './mapActions';
 
-export { logInFailure, logIn, logOut, logInSuccess, changeZoom };
+export {
+  logInFailure,
+  logIn,
+  logOut,
+  logInSuccess,
+  changeZoom,
+  addMarker,
+  saveMarkers,
+  getMarkers,
+  removeMarkers
+};
